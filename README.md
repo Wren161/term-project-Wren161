@@ -1,0 +1,3 @@
+# Spatial Resources for Trans People in the US
+
+This site contains a web atlas with several layers displaying data on LGBT people in the US, with a focus on trans people. Considering the current climate revolving around trans people and our existence in the US, I thought it might be a good idea to see what spatial resources are out there for us and can be accessed easily. Much of the intially collected data has been altered to include important summary statistics. Along with the web atlas are metadata(.txt files) and data files (.geojson), accessible through dro[pdown menus next to the web map. Enjoy!

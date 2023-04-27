@@ -1,0 +1,26 @@
+Data name: U.S. Census Household Pulse Survey Week 34
+
+Data Provider: United States Census Bureau
+
+Spatial Data Type: Point Layer
+
+Source link: https://www.census.gov/data/tables/2021/demo/hhp/hhp34.html
+
+Attributes:
+	State: two-letter state abbreviation
+	Trans Pop: population of transgender people in the state
+	Gay Pop: population of gay or lesbian people in the state
+	Bi Pop: population of bisexual people in the state
+	Latitude
+	Longitude
+	Geometry
+
+Coordinate System: Geographic Coordinates (Latitude, Longitude)
+
+Extent: U.S.A.
+
+Date collected: April 15, 2023
+
+Publishing data: Aug 11, 2021
+
+Lisence: Public Use

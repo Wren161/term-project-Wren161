@@ -1,0 +1,44 @@
+Data Provider: Alexander J. Marlos et al.
+
+Spatial Data Type: Point Layer
+
+Source link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5503273/
+
+Attributes:
+	ID
+	Center Name
+	ServeLesbian: Binary whether the center serves lesbians
+	ServeGay: Binary whether the center serves gay men
+	ServeBisexual: Binary whether the center serves bisexual people
+	ServeTransgender: Binary whether the center serves trans people
+	WebAddress: URL
+	NGO: Binary whether the center is an NGO
+	Street Adress
+	City
+	State
+	Zip: ZIP Code
+	SHServices: Binary whether the center provides SH Services
+	HealthScreenings: Binary whether the center provides Health Screenings
+	CTServices: Binary whether the center provides CT Services
+	SupportServices: Binary whether the center provides Support Services
+	BlackSpecific: Binary whether the center specifically serves the black community
+	LatinoSpecific: Binary whether the center specifically serves the latino community	
+	APISpecific: Binary whether the center specifically serves the API community	
+	MaleSpecific: Binary whether the center specifically serves men
+	FemaleSpecific: Binary whether the center specifically serves women
+	GenerationSpecific: Binary whether the center specifically serves a particular age group	
+	Source: numerical classification of how the center was identified
+		"(1=List of "health providing organizations" provided by CenterLink (82 listings: 74 LGBT Community Centers consisting of 52 LGBT organizations in operation); 2=Unique organizations drawn from LGBT Community Health Centers (FQHCs) listed on CDC website (51 listings: 51 LGBT Centers consisting of 13 LGBT organizations in operation); 3=Unique organizations drawn from list of 2015 CenterLink member organizations (107 listings: 78 LGBT Centers consisting of 70 LGBT organizations in operation); 4=Unique organizations drawn from list of CenterLink Bi-Annual survey respondents (19 listings: 11 LGBT Centers consisting of 10 organizations in operation); 5=Unique organizations drawn from CenterLink website "Member Organizations" page (14 listings: 8 LGBT Centers consisting of 7 organizations in operation); 6=Unique organizations identified via previous organization web-page or via Guidestar searching; 6=New listings obtained via internet and guidestar searches (161 listings, 69 LGBT Centers consisting of 67 LGBT organizations in operation)"
+	Latitude
+	Longitude
+	Geometry
+
+Coordinate System: Geographic Coordinates (Latitude, Longitude)
+
+Extent: U.S.A.
+
+Date collected: April 25, 2023
+
+Last Updated: July 10, 2017
+
+Lisence: Public Use

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Trans Resources</title>
+        
+		<!--put your external stylesheet links here-->
+		<link rel="stylesheet" href="css/styles.css">
+        
+		<!--you can also place internal styles here; you would place these within <style> tags-->
+
+		<!-- link to data -->
+		<script type="text/javascript" src="data/US_GAHT_Providers.js"></script>
+		<script type="text/javascript" src="data/antiLGBTBills.js"></script>
+		<script type="text/javascript" src="data/antiLGBTBills_byState.js"></script>
+		<script type="text/javascript" src="data/LGBTPop.js"></script>
+		<script type="text/javascript" src="data/CommunityCenters.js"></script>
+
+		<!-- link to leaflet styles -->
+		<link rel="stylesheet" type="text/css" href="lib/leaflet/leaflet.css" />
+
+		<!-- link to leaflet scripts -->
+		<script type="text/javascript" src="lib/leaflet/leaflet.js"></script>
+    </head>
+
+    <body>
+        <!--put your initial page content here-->
+		<h1>Spatial Data for Trans People in the U.S.</h1>
+		
+		
+		<div id="mapdiv"></div>
+
+		<div class="dropdown">
+  			<button class="dropbtn">Metadata Links</button>
+  			<div class="dropdown-content">
+    				<a href="metadata/GAHTmeta.txt">HRT metadata</a>
+   			      <a href="metadata/Billsmeta.txt">Anti-LGBT Bills metadata</a>
+    				<a href="metadata/Popmeta.txt">Population Stats Metadata</a>
+				<a href="metadata/Commmeta.txt">Community Centers Metadata</a>
+  			</div>
+		</div>
+
+		<div class="dropdown2">
+  			<button class="dropbtn2">GeoJSON Links</button>
+  			<div class="dropdown-content2">
+    				<a href="data/US_GAHT_Providers.geojson">HRT Providers</a>
+   			      <a href="data/AntiLGBTBills.geojson">Anti-LGBT Bills</a>
+				<a href="data/antiLGBTBills_byState.geojson">Anti-LGBT Bills by State</a>
+    				<a href="data/LGBTPop.geojson">LGBT Population Stats</a>
+				<a href="data/CommunityCenters.geojson">Community Centers</a>
+  			</div>
+		</div>
+		
+		<!--
+		<div id="div1">
+		</div>
+		-->
+        <!--you can also use this space for internal scripts; you would place these within <script> tags-->
+
+        <!--put your external script links here-->
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,25 @@
+Data Provider: American Civil Liberties Union
+
+Spatial Data Type: Point Layer
+
+Source link: https://www.aclu.org/legislative-attacks-on-lgbtq-rights?
+
+Attributes:
+	State
+	Bill: bill identification code
+	Issue: sector which bill is aimed at
+	Status: current general status of the bill's progression into law
+	Status Detail: specific status of the bill's progression into law and date of la=test status attainment
+	Latitude
+	Longitude
+	Geometry
+
+Coordinate System: Geographic Coordinates (Latitude, Longitude)
+
+Extent: U.S.A.
+
+Date collected: April 15, 2023
+
+Last Updated: April 2, 2023
+
+Lisence: Public Use
